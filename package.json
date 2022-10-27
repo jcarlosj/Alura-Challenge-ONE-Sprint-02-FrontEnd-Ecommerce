@@ -1,0 +1,14 @@
+{
+  "name": "sprint-02-frontend-ecommerce",
+  "version": "1.0.0",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "description": "AluraGeek: Challenge ONE Front-End Sprint 02",
+  "main": "index.js",
+  "author": "Juan Carlos Jiménez Gutiérrez <jcjimenez29@misena.edu.co>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
