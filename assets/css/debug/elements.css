@@ -1,14 +1,4 @@
-.section {
+section {
     border: 1px dotted green;
-    box-sizing: border-box;
-}
-
-.container {
-    border: 1px dotted red;
-    box-sizing: border-box;
-}
-
-.section > * {
-    border: 1px dotted blue;
     box-sizing: border-box;
 }

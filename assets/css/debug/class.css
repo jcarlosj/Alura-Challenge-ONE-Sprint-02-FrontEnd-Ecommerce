@@ -1,0 +1,10 @@
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    border: 1px dotted red;
+    box-sizing: border-box;
+}
