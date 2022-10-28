@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraGeek</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
 </head>
 <body>
     <div class="page">
@@ -18,12 +21,12 @@
                 <div class="search">
                     <form action="">
                         <input name="search" id="search" placeholder="¿Qué deseas buscar?" />
-                        <button type="button">Buscar</button>
+                        <button class="btn" type="button">Buscar</button>
                     </form>
                 </div>
                 <nav class="nav__menu">
                     <ul class="menu menu-principal">
-                        <li class="menu-item"><a href="#">Login</a></li>
+                        <li class="menu-item"><a class="btn btn-outline-primary" href="#">Login</a></li>
                     </ul>
                 </nav>
             </div>
@@ -39,7 +42,7 @@
                     <div class="hero__content">
                         <h1>Febrero promocional</h1>
                         <p>Productos seleccionados con el 33% de descuento.</p>
-                        <a href="#">Ver consolas</a>
+                        <a class="btn btn-primary" href="#">Ver consolas</a>
                     </div>
                 </div>
             </section>
@@ -225,7 +228,7 @@
                                 <label for="mensagem" class="form-label" data-type="label-mensagem">Mensaje:</label>
                                 <span class="form-message">Mensaje informativo o de error</span>
                             </div>
-                            <button type="submit" class="formcontato__botao" disabled>Enviar mensaje</button>
+                            <button type="submit" class="btn btn-primary" disabled>Enviar mensaje</button>
                         </form>
                     </div>
 

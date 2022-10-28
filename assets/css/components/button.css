@@ -1,0 +1,22 @@
+.btn {
+    border: 2px solid transparent;
+    display: inline-block;
+    padding: 1.2rem 1.6rem;
+}
+
+.btn-primary {
+    border: 2px solid var( --BleuDeFrance );
+    background-color: var( --BleuDeFrance );
+    color: var( --White );
+}
+
+.btn-outline-primary {
+    border: 2px solid var( --BleuDeFrance );
+    background-color: var( --White );
+    color: var( --BleuDeFrance );
+}
+
+.btn-primary:disabled,
+.btn-primary[disabled] {
+    opacity: .5;
+}
