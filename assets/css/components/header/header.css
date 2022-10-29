@@ -1,0 +1,11 @@
+.header__content {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.header__search {
+    flex: 1;
+    text-align: left;
+}

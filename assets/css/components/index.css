@@ -1,2 +1,6 @@
 /* Componentes: componentes específicos de la interfaz de usuario. Aquí es donde se lleva a cabo la mayor parte de nuestro trabajo. A menudo componemos componentes de interfaz de usuario de objetos y componentes */
+@import './header/header.css';
+@import './categories/categories.css';
+@import './footer/index.css';
+
 @import './button.css';

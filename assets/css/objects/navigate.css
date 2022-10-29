@@ -1,0 +1,35 @@
+.menu__nav,
+.nav {
+    list-style: none;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.nav-item {
+    flex: 1 0 46%;
+}
+
+@media ( min-width: 992px ) {
+    .nav-item {
+        flex: 1 0 23%;
+    }
+    .nav-item:nth-last-child( -n + 2 ) {
+        display: none;
+    }
+}
+
+@media ( min-width: 1200px ) {
+    .nav-item {
+        flex: 1 0 14%;
+    }
+    .nav-item:nth-last-child( -n + 2 ) {
+        display: initial;
+    }
+}
