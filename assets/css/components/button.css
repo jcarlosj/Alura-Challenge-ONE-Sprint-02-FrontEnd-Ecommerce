@@ -9,6 +9,8 @@
     background-color: var( --BleuDeFrance );
     border: 2px solid var( --BleuDeFrance );
     color: var( --White );
+    font-size: 1.4rem;
+    font-weight: 600;
     padding: 1.2rem 1.6rem;
 }
 
@@ -35,4 +37,11 @@
 .btn-primary:disabled,
 .btn-primary[disabled] {
     opacity: .5;
+}
+
+@media ( min-width: 1200px ) {
+    .btn-primary {
+        font-size: 1.6rem;
+        font-weight: normal;
+    }
 }
