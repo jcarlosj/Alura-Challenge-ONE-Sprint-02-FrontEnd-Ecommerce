@@ -1,0 +1,8 @@
+.product-item {
+    text-align: left;
+}
+
+.product-item__image {
+    min-width: 17.6rem;
+    width: 100%;
+}

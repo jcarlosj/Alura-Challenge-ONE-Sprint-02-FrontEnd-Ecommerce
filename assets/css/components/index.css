@@ -5,6 +5,7 @@
 @import './hero/index.css';
 @import './forms/index.css';
 @import './categories/categories.css';
+@import './product/product-item.css';
 @import './footer/index.css';
 
 @import './button.css';
