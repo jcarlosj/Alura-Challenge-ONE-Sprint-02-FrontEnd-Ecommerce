@@ -8,3 +8,8 @@
     border: 1px dotted red;
     box-sizing: border-box;
 }
+
+.search-icon__link {
+    border: 1px dotted blue;
+    box-sizing: border-box;
+}

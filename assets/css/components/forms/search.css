@@ -1,0 +1,14 @@
+.search {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.search__input {
+    height: var( --height-input );
+    background: var( --Cultured );
+    border: 1px solid var( --Cultured );
+    border-radius: 5rem 0 0 5rem;
+    outline: 0;
+    padding: 1.6rem;
+}

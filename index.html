@@ -14,21 +14,32 @@
     <div class="page">
         <!-- Sección de Header -->
         <section class="section header">
-            <div class="header__content container">
+            <div class="header__content container-md">
                 <header class="header__logo">
-                    <img class="site-logo logo" src="./assets/svg/alurageek-logo.svg" alt="Logo: AluraGeek" />
+                    <a href="#">
+                        <img class="site-logo logo" src="./assets/svg/alurageek-logo.svg" alt="Logo: AluraGeek" />
+                    </a>
                 </header>
                 <div class="header__search">
-                    <form action="">
-                        <input name="search" id="search" placeholder="¿Qué deseas buscar?" />
-                        <button class="btn" type="button">Buscar</button>
+                    <form class="search">
+                        <input class="search__input" name="search" id="search" placeholder="¿Qué deseas buscar?" />
+                        <button type="button" class="btn btn-search">
+                            <span class="search-icon__background search-icon__color" type="button">
+                        </button>
+                            
+                        </span>
                     </form>
                 </div>
                 <nav class="header__menu nav__menu">
                     <ul class="menu menu__nav menu-principal">
-                        <li class="menu-item"><a class="btn btn-outline-primary" href="#">Login</a></li>
+                        <li class="menu-item"><a class="btn btn-outline-primary btn-login" href="#">Login</a></li>
                     </ul>
                 </nav>
+                <div class="header__search-icon">
+                    <a href="#" class="search-icon__link">
+                        <img class="search-icon" src="./assets/svg/search-icon.svg" alt="Search icon SVG"/>
+                    </a>
+                </div>
             </div>
         </section>
     </div>

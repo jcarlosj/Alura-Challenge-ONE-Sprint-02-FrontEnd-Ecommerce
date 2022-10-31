@@ -1,0 +1,13 @@
+.site-logo {
+    display: block;
+    min-width: 13rem;
+    text-align: left;
+    transition: all 0.5s;
+    width: 70%;
+}
+
+@media ( min-width: 1200px ) {
+    .site-logo {
+        width: 90%;
+    }
+}

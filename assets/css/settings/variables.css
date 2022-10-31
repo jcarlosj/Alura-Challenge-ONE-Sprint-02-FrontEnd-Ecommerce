@@ -17,4 +17,8 @@
     --Raleway: 'Raleway';
 
     --gutter-x: 1.6rem * 2;         /** Canal lateral en x (1.6rem) */
+    --height-field: 4.4rem;
+    --height-input: var( --height-field );
+    --width-icon: var( --height-field );
+    --height-icon: var( --height-field );
 }
