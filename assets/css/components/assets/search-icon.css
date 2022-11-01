@@ -2,17 +2,17 @@
     align-items: center;
     display: flex;
     fill: var( OuterSpace );
-    height: var( --height-icon );
+    height: var( --icon-height-search );
     justify-content: center;
     min-width: 1.7rem;
-    width: var( --width-icon );
+    width: var( --icon-width-search );
 }
 
 .search-icon__background {
     -webkit-mask: url( '../../../svg/search-icon.svg' ) no-repeat 50% 50%;
     background-color: var( --QuickSilver );
     display: flex;
-    height: var( --height-icon );
+    height: var( --icon-height-search );
     mask: url( '../../../svg/search-icon.svg' ) no-repeat 50% 50%;
-    width: var( --width-icon );
+    width: var( --icon-width-search );
 }

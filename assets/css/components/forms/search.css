@@ -5,7 +5,7 @@
 }
 
 .search__input {
-    height: var( --height-input );
+    height: var( --input-height-search );
     background: var( --Cultured );
     border: 1px solid var( --Cultured );
     border-radius: 5rem 0 0 5rem;

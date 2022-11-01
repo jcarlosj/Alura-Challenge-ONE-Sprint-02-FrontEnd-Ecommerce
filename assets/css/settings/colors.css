@@ -1,6 +1,4 @@
 :root {
-    --overall-font-size: 62.5%;
-
     --AliceBlue: #EAF2FD;
     --Black: #000000;
     --BleuDeFrance: #2A7AE4;
@@ -13,13 +11,4 @@
     --ForestGreen: #278027;
     --FerrariRed: #FF2300;
     --OriolesOrange: #FC4023;
-
-    --Raleway: 'Raleway';
-
-    --gutter-x: 1.6rem * 2;         /** Canal lateral en x (1.6rem) */
-
-    --height-field: 4.4rem;
-    --height-input: var( --height-field );
-    --width-icon: var( --height-field );
-    --height-icon: var( --height-field );
 }

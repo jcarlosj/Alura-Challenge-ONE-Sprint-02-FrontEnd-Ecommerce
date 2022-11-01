@@ -1,0 +1,10 @@
+:root {
+    /** Search Form */
+    --height-field: 4.4rem;
+    --input-height-search: var( --height-field );
+    --icon-width-search: var( --height-field );
+    --icon-height-search: var( --height-field );
+
+    /** Contact Form */
+    --input-height: 5.6rem;
+}
