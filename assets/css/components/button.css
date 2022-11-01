@@ -39,6 +39,37 @@
     opacity: .5;
 }
 
+.btn-view {
+    border: 2px solid transparent;
+    color: var( --BleuDeFrance );
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+    padding: 0;
+    display: initial;
+}
+
+.btn-all {
+    align-items: center;
+    border: 2px solid transparent;
+    color: var( --BleuDeFrance );
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 700;
+    gap: 1rem;
+    justify-content: space-between;
+    line-height: 1.9rem;
+    padding: 0;
+}
+
+.btn-all::after {
+    background-image: url( '../../svg/arrow-icon.svg' );
+    content: '';
+    display: block;
+    height: 1.6rem;
+    width: 1.6rem;  
+}
+
 @media ( min-width: 1200px ) {
     .btn-primary {
         font-size: 1.6rem;
