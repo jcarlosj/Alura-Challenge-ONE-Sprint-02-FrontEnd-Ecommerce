@@ -12,3 +12,12 @@
     outline: 0;
     padding: 1.6rem;
 }
+
+@media (min-width: 768px) {
+    .search {
+        width: 90%;
+    }
+    .search__input {
+        width: 100%;
+    }
+}
