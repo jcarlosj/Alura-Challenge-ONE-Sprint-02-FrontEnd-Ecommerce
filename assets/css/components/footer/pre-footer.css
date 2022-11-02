@@ -6,20 +6,22 @@
     text-align: left;
 }
 
-.pre-footer__widgets {
-    display: inline-grid;
-    padding: 6.4rem 0;
-}
-
 .widget.widget-form {
     margin: 3rem 0 0 0;
 }
 
-@media ( min-width: 992px ) {
+.pre-footer__content {
+    margin: 0 auto;
+}
+
+@media ( min-width: 768px ) {
+    .pre-footer__content {
+        margin: 3.2rem auto;
+    }
     .pre-footer__widgets {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        grid-template-rows: 1fr 3fr;
+        grid-template-rows: 19% auto;
     }
     .widget-logo {
         grid-column: 1/2;
@@ -36,6 +38,9 @@
 }
 
 @media ( min-width: 1200px ) {
+    .pre-footer__content {
+        margin: 6.4rem auto;
+    }
     .pre-footer__widgets {
         grid-template-columns: 25% 25% 50%;
         grid-template-rows: 1fr;

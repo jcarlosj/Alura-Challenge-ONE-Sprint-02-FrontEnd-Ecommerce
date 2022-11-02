@@ -8,17 +8,22 @@
 
 .site-logo__footer {
     margin: 2.4rem auto;
+    max-width: 20rem;
     width: 50%;
 }
 
-@media ( min-width: 992px ) {
+@media ( min-width: 768px ) {
     .site-logo__footer {
-        margin: 2.4rem 0;
+        margin: 2.4rem 0 0 0;
     }
 }
 
 @media ( min-width: 1200px ) {
     .site-logo {
         width: 90%;
+    }
+    .site-logo__footer {
+        margin: 1.6rem 0;
+        max-width: 19rem;
     }
 }

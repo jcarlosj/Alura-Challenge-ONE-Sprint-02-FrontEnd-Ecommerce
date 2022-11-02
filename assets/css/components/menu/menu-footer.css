@@ -6,9 +6,15 @@
     padding: 0.8rem 0;
 }
 
-@media ( min-width: 992px ) {
+@media ( min-width: 768px ) {
     .menu-footer {
+        margin: 0.8rem 0;
         text-align: left;
+    }   
+}
+
+@media ( min-width: 1200px ) {
+    .menu-footer {
+        margin: initial;
     }
-    
 }

@@ -1,9 +1,9 @@
 .form-field-textarea {
-    height: calc( var( --input-height ) * 2.2 );
+    height: var( --textarea-height );
 }
 
 .form-textarea {
-    height: calc( var( --input-height ) * 2.2 );
+    height: var( --textarea-height );
     width: 100%;
     padding: 1.8rem 1rem 0 1rem;
     position: absolute;
