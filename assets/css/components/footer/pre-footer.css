@@ -1,12 +1,25 @@
+.pre-footer {
+    background-color: var( --AliceBlue );
+}
+
+.pre-footer__title {
+    text-align: left;
+}
+
 .pre-footer__widgets {
     display: inline-grid;
+    padding: 6.4rem 0;
+}
+
+.widget.widget-form {
+    margin: 3rem 0 0 0;
 }
 
 @media ( min-width: 992px ) {
     .pre-footer__widgets {
         display: grid;
         grid-template-columns: 1fr 2fr;
-        
+        grid-template-rows: 1fr 3fr;
     }
     .widget-logo {
         grid-column: 1/2;
@@ -24,12 +37,22 @@
 
 @media ( min-width: 1200px ) {
     .pre-footer__widgets {
-        grid-template-columns: 1fr 1fr fr;
+        grid-template-columns: 25% 25% 50%;
+        grid-template-rows: 1fr;
+    }
+    .widget-logo {
+        grid-column: 1/2;
+        grid-row: 1/2;
     }
     .widget-menu {
         grid-column: 2/3;
+        grid-row: 1/2;
     }
     .widget-form {
         grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .widget.widget-form {
+        margin: .8rem 0 0 0;
     }
 }

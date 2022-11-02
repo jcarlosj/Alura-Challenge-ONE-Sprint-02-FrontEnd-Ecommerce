@@ -17,8 +17,8 @@
         <section class="section header">
             <div class="header__content container-md">
                 <header class="header__logo">
-                    <a href="#">
-                        <img class="site-logo logo" src="./assets/svg/alurageek-logo.svg" alt="Logo: AluraGeek" />
+                    <a href="#" class="site-logo__link">
+                        <img class="site-logo site-logo__header" src="./assets/svg/alurageek-logo.svg" alt="Logo: AluraGeek" />
                     </a>
                 </header>
                 <div class="header__search">
@@ -332,45 +332,49 @@
 
             <!-- Sección de Pre Footer -->
             <section class="section pre-footer">
-                <div class="container">
-                    <div class="pre-footer__content pre-footer__widgets container">
 
-                        <div class="pre-footer__widget widget widget-logo">
-                            <img class="site-logo logo" src="./assets/svg/alurageek-logo.svg" alt="Logo: AluraGeek" />
-                        </div>
+                <div class="pre-footer__content pre-footer__widgets container">
 
-                        <div class="pre-footer__widget widget widget-menu">
-                            <nav class="nav__menu">
-                                <ul class="menu menu__nav menu-footer">
-                                    <li class="menu-item"><a href="#">Quiénes somos</a></li>
-                                    <li class="menu-item"><a href="#">Política de privacidad</a></li>
-                                    <li class="menu-item"><a href="#">Programa de fidelidad</a></li>
-                                    <li class="menu-item"><a href="#">Nuestras tiendas</a></li>
-                                    <li class="menu-item"><a href="#">Quiero ser franquciado</a></li>
-                                    <li class="menu-item"><a href="#">Anuncie aquí</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-
-                        <div class="pre-footer__widget widget widget-form">
-                            <h3 class="formcontato__subtext">Habla con nosotros.</h3>
-                            <form class="formcontato__form" name="form">
-                                <div class="form-field form-field-input">
-                                    <input type="text" name="name" class="form-control form-input" id="name" placeholder="Escribe tú nombre" data-type="input-name" autocomplete="off" required />
-                                    <label for="name" class="form-label" data-type="label-name">Nombre:</label>
-                                    <span class="form-message">Mensaje informativo o de error</span>
-                                </div>
-                                <div class="form-field form-field-textarea">
-                                    <textarea name="mensagem" class="form-control form-textarea" id="mensagem" placeholder="Escribe un mensage" data-type="textarea-mensagem" required></textarea>
-                                    <label for="mensagem" class="form-label" data-type="label-mensagem">Mensaje:</label>
-                                    <span class="form-message">Mensaje informativo o de error</span>
-                                </div>
-                                <button type="submit" class="btn btn-primary" disabled>Enviar mensaje</button>
-                            </form>
-                        </div>
-
+                    <div class="pre-footer__widget widget widget-logo">
+                        <a href="#" class="site-logo__link">
+                            <img class="site-logo site-logo__footer" src="./assets/svg/alurageek-logo.svg" alt="Logo: AluraGeek" />
+                        </a>
                     </div>
+
+                    <div class="pre-footer__widget widget widget-menu">
+                        <nav class="nav__menu">
+                            <ul class="menu menu__nav menu-footer">
+                                <li class="menu-item"><a href="#" class="menu-item__link">Quiénes somos</a></li>
+                                <li class="menu-item"><a href="#" class="menu-item__link">Política de privacidad</a></li>
+                                <li class="menu-item"><a href="#" class="menu-item__link">Programa de fidelidad</a></li>
+                                <li class="menu-item"><a href="#" class="menu-item__link">Nuestras tiendas</a></li>
+                                <li class="menu-item"><a href="#" class="menu-item__link">Quiero ser franquciado</a></li>
+                                <li class="menu-item"><a href="#" class="menu-item__link">Anuncie aquí</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="pre-footer__widget widget widget-form">
+                        <h3 class="pre-footer__title">Hable con nosotros.</h3>
+                        <form class="pre-footer__form" name="form">
+                            <div class="form-field form-field-input">
+                                <input type="text" name="name" class="form-control form-input" id="name" placeholder="Escribe tú nombre" data-type="input-name" autocomplete="off" required />
+                                <label for="name" class="form-label" data-type="label-name">Nombre:</label>
+                                <span class="form-message">Mensaje informativo o de error</span>
+                            </div>
+                            <div class="form-field form-field-textarea">
+                                <textarea name="mensagem" class="form-control form-textarea" id="mensagem" placeholder="Escribe un mensage" data-type="textarea-mensagem" required></textarea>
+                                <label for="mensagem" class="form-label" data-type="label-mensagem">Mensaje:</label>
+                                <span class="form-message">Mensaje informativo o de error</span>
+                            </div>
+                            <div class="form-field form-button">
+                                <button type="submit" class="btn btn-primary" disabled>Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+
                 </div>
+
             </section>
 
             <!-- Sección de Footer -->

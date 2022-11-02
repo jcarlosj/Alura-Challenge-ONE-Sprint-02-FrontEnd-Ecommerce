@@ -2,6 +2,7 @@
 @import './assets/index.css';
 
 @import './header/header.css';
+@import './menu/index.css';
 @import './hero/index.css';
 @import './forms/index.css';
 @import './categories/categories.css';

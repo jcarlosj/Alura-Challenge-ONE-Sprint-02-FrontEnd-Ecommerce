@@ -1,0 +1,14 @@
+.menu-footer .menu-item__link {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.878rem;
+    padding: 0.8rem 0;
+}
+
+@media ( min-width: 992px ) {
+    .menu-footer {
+        text-align: left;
+    }
+    
+}
