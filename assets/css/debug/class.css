@@ -24,3 +24,7 @@
     border: 1px dotted blue;
     box-sizing: border-box; */
 }
+
+.nav-item:nth-last-child( -n + 3 ) {
+    /* background-color: orange; */
+}

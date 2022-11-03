@@ -1,0 +1,15 @@
+@media ( min-width: 1200px ) {
+    .product__content-list .nav-item:nth-last-child( -n + 1 ),
+    .product__content-list .nav-item:nth-last-child( -n + 2 ),
+    .product__content-list .nav-item:nth-last-child( -n + 3 ) {
+        display: none;
+    }
+}
+
+@media ( min-width: 1400px ) {
+    .product__content-list .nav-item:nth-last-child( -n + 1 ),
+    .product__content-list .nav-item:nth-last-child( -n + 2 ),
+    .product__content-list .nav-item:nth-last-child( -n + 3 ) {
+        display: initial;
+    }
+}
