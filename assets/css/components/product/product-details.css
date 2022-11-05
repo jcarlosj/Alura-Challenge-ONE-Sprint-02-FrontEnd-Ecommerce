@@ -78,6 +78,10 @@
     .product__image {
         width: 56rem;
     }
+    .product__info {
+        width: 100%;
+        padding-left: 2rem;
+    }
 }
 
 @media ( min-width: 1400px ) {

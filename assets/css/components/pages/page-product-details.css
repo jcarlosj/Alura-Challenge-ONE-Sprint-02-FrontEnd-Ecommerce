@@ -2,6 +2,10 @@
     display: none;
 }
 
+.page-product-details .product-item__icons.icons {
+    display: none;
+}
+
 .page-product-details .section.product-details .container-md {
     padding: 0;
 }
