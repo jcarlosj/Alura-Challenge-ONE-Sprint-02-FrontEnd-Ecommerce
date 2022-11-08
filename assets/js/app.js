@@ -1,1 +1,4 @@
-console.log( 'Hello AluraGeek!' );
+import { showProducts } from './controllers/product.controller.js';
+
+showProducts();
+

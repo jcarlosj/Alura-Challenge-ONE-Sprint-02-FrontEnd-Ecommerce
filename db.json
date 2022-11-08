@@ -1,19 +1,130 @@
 {
-  "posts": [
+  "products": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id": 1111111,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 1111112,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111113,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111114,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111115,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111116,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111117,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111118,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111119,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111120,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111121,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111122,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111123,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111124,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111125,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111126,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111127,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1111128,
+      "name": "Product XYZ",
+      "url": "https://random.imagecdn.app/176/176",
+      "price": 60.00,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
