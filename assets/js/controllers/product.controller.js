@@ -9,11 +9,11 @@ class ProductController {
     allProducts = async () => {
         const products = await productServices.getAllProducts();
     
-        console.log( products );
+        return products;
     }
     
     byCategory = async ( category ) => {
-        const products = await productServices.getProductsByCategory( category );
+        return await productServices.getProductsByCategory( category );
     
         console.log( products );
     }
