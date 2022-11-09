@@ -1,7 +1,23 @@
 import { productServices } from '../services/product.service.js';
 
-export const showProducts = async () => {
-    const products = await productServices.getProducts();
+class ProductController {
 
-    console.log( products );
+    constructor() {
+        console.log( 'ProductController!' );
+    }
+
+    allProducts = async () => {
+        const products = await productServices.getAllProducts();
+    
+        console.log( products );
+    }
+    
+    byCategory = async ( category ) => {
+        const products = await productServices.getProductsByCategory( category );
+    
+        console.log( products );
+    }
+
 }
+
+export default new ProductController();
