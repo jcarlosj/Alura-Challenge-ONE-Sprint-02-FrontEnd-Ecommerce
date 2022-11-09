@@ -1,5 +1,5 @@
 import ProductController from './controllers/product.controller.js';
-import { createElement } from './helpers/node.helpers.js';
+import { CategorySectionComponent } from './helpers/category.helper.js';
 
 const init = async () => {
     const categories = [ 'starwars', 'hola', 'diversos' ];
@@ -10,17 +10,8 @@ const init = async () => {
         console.log( products );
 
         if( products.length > 0 ) {
-            const options = {
-                element: 'section',
-                id: `section-${ category }`,
-                classes: [ 'section', 'category', `section-${ category }`, category ],
-                attributes: [
-                    { "data-section": "section" }
-                ]
-            };
-            
-            const newEl = createElement( options );
-            console.log( newEl );
+            const componentCategory = CategorySectionComponent( category );
+            console.log( componentCategory );
         }
 
     }
