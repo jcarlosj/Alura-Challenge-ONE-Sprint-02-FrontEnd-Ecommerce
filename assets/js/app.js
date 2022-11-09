@@ -12,7 +12,4 @@ $anchorEls.forEach( anchorEl => {
     });
 });
 
-
-console.log( window.location.pathname );
 showProducts();
-
