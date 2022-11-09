@@ -8,7 +8,7 @@ const createAttribute = ({ nameAttr, valueAttr }) => {
     return newAttribute;
 }
 
-const createElement = ({ element, id, classes, attributes } ) => {
+const createElement = ({ element, text, id, classes, attributes } ) => {
     const node = document.createElement( element );
 
     if( id ) {
@@ -41,10 +41,32 @@ const createElement = ({ element, id, classes, attributes } ) => {
 
     }
 
+    if( text )
+        node.textContent = text;
+    
+
     return node;
+}
+
+const createNode = ({ element, text, id, classes, attributes }) => {
+    const options = {};
+
+    if( element )
+        options[ 'element' ] = element;
+    if( text )
+        options[ 'text' ] = text;
+    if( id )
+        options[ 'id' ] = id;
+    if( classes )
+        options[ 'classes' ] = classes;
+    if( attributes )
+        options[ 'attributes' ] = attributes;    
+
+    return createElement( options );
 }
 
 
 export {
-    createElement
+    createElement,
+    createNode
 }

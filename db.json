@@ -19,7 +19,7 @@
     {
       "id": 1111113,
       "name": "Product XYZ",
-      "category": "",
+      "category": "consolas",
       "url": "https://random.imagecdn.app/176/176",
       "price": 60.00,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
@@ -51,7 +51,7 @@
     {
       "id": 1111117,
       "name": "Product XYZ",
-      "category": "",
+      "category": "consolas",
       "url": "https://random.imagecdn.app/176/176",
       "price": 60.00,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
@@ -83,7 +83,7 @@
     {
       "id": 1111121,
       "name": "Product XYZ",
-      "category": "",
+      "category": "consolas",
       "url": "https://random.imagecdn.app/176/176",
       "price": 60.00,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
@@ -99,7 +99,7 @@
     {
       "id": 1111123,
       "name": "Product XYZ",
-      "category": "",
+      "category": "consolas",
       "url": "https://random.imagecdn.app/176/176",
       "price": 60.00,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
