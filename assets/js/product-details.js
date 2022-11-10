@@ -1,5 +1,8 @@
 import ProductController from './controllers/product.controller.js';
+import { ProductComponent } from './helpers/product-details.helper.js';
 
+
+const sectionsNode = document.querySelector( '[data-sections]' );
 
 const init = async ( ) => {
     const urlParams = new URLSearchParams( window.location.search );
@@ -11,7 +14,10 @@ const init = async ( ) => {
         if( ! product ) 
             window.location.replace( '../../../home.html' );
 
-        console.log( product );
+        const component = ProductComponent( product );
+        console.log( component );
+
+        sectionsNode.appendChild( component );
 
     }
     else {

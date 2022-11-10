@@ -2,14 +2,14 @@ import { createElement, createNode } from './node.helpers.js';
 
 
 export const ProductSectionComponent = ( title, products ) => {
-    const name = 'products';
+    const className = 'products';
 
     const
         mainNode = createNode({
             element: 'section',
-            classes: [ 'section', 'category', `section-${ name }`, name ],
+            classes: [ 'section', 'category', `section-${ className }`, className ],
             attributes: [
-                { 'data-section': `section-${ name }` }
+                { 'data-section': `section-${ className }` }
             ]
         }),
         containerNode = createNode({
