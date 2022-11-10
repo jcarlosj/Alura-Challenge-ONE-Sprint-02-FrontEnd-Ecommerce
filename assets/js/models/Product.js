@@ -1,16 +1,20 @@
-export class Product {
+export default class Product {
     #id;
     #name;
+    #category;
     #url;
     #price;
     #description;
 
-    constructor( name, url, price, description ) {
-        this.#id = Date.now();
+    constructor({ id, name, category, url, price, description }) {
+        this.#id = id;
         this.#name = name;
+        this.#category = category;
         this.#url = url;
         this.#price = price;
         this.#description = description;
+
+        console.log( 'Product Model!' );
     }
 
     get name() { 
@@ -28,7 +32,7 @@ export class Product {
     }
 
     get price() {
-        return this.price;
+        return this.#price;
     }
     set price( newPrice ) {
         this.#price = newPrice;

@@ -11,7 +11,7 @@ const getProductsByCategory = async ( category ) => {
     let products = await getAllProducts();
 
     return products
-        .filter( product => product.category == category )
+        .filter( product => product.category === category )
         .slice( 0, 6 );
 
 }
