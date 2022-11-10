@@ -18,6 +18,15 @@ class ProductController {
         });
     }
 
+    findById = async ( id ) => {
+        const product = await productServices.getProductsById( id );
+
+        if( product.length === 0 )
+            return false;
+
+        return product[ 0 ];
+    }
+
     byCategory = async ( category ) => {
         const products = await productServices.getProductsByCategory( category );
 

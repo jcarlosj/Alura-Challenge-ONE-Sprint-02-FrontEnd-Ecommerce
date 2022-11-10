@@ -36,7 +36,7 @@ export const CategorySectionComponent = ( name, products ) => {
         });
 
 
-    products.forEach( ({ name, url, price }) => {
+    products.forEach( ({ name, url, price, id }) => {
         
         const
             liNode = createNode({
@@ -82,7 +82,7 @@ export const CategorySectionComponent = ( name, products ) => {
                 text: 'Ver producto',
                 classes: [ 'btn', 'btn-view' ],
                 attributes: [
-                    { 'href': '/#' }
+                    { 'href': `/product-details.html?id=${ id }` }
                 ]
             });
 

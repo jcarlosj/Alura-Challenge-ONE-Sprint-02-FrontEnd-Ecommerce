@@ -16,8 +16,15 @@ const getProductsByCategory = async ( category ) => {
 
 }
 
+const getProductsById = async ( id ) => {
+    let products = await getAllProducts();
+
+    return products.filter( product => product.id === Number( id ));
+}
+
 
 export const productServices = {
     getAllProducts,
-    getProductsByCategory
+    getProductsByCategory,
+    getProductsById
 }
