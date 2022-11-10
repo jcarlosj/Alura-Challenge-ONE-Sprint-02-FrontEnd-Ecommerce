@@ -1,8 +1,8 @@
 import ProductController from './controllers/product.controller.js';
 import { CategorySectionComponent } from './helpers/category.helper.js';
 
+
 const sectionsNode = document.querySelector( '[data-sections]' );
-// console.log( sectionsNode );
 
 const init = async () => {
     const categories = [ 'starwars', 'hola', 'diversos', 'consolas' ];

@@ -17,6 +17,10 @@ export default class Product {
         console.log( 'Product Model!' );
     }
 
+    get id() { 
+        return this.#id;
+    }
+
     get name() { 
         return this.#name; 
     }
