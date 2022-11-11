@@ -38,6 +38,17 @@ class ProductController {
         return this.#Products.getList;
     }
 
+    byCategoryExcludingProductById = async ( category, id ) => {
+        const products = await productServices.getProductsByCategory( category, id );
+
+        if( products.length === 0 )
+            return false;
+
+        this.addModel( products );   
+
+        return this.#Products.getList;
+    }
+
     all = async () => {
         const products = await productServices.getAllProducts();
 

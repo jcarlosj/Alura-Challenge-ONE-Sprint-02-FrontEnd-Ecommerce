@@ -6,14 +6,18 @@ const getAllProducts = async () => {
     return data;
 }
 
-const getProductsByCategory = async ( category ) => {
+const getProductsByCategory = async ( category, id = null ) => {
     console.log( category );
     let products = await getAllProducts();
 
+    if ( id !== null )
+        return products
+            .filter( product => product.category === category && product.id !== id )
+            .slice( 0, 6 );
+    
     return products
         .filter( product => product.category === category )
         .slice( 0, 6 );
-
 }
 
 const getProductsById = async ( id ) => {
