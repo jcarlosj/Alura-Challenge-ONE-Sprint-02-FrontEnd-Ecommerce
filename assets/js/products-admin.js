@@ -4,15 +4,51 @@ import { ProductSectionComponent } from './helpers/products.helper.js';
 
 const sectionsNode = document.querySelector( '[data-sections]' );
 
-const init = async () => {
+( async () => {
+    await display();
+    actions();
+})();
+
+async function display() {
     const products = await ProductController.all();
 
     if( products.length > 0 ) {
         const componentProduct = ProductSectionComponent( 'Todos los productos', products );
-        console.log( componentProduct );
+        // console.log( componentProduct );
 
         sectionsNode.appendChild( componentProduct );
     }
 }
 
-init();
+function actions() {
+    const $aAddProduct = document.querySelector( '[data-add-product]' );
+    const $ulElement = sectionsNode.querySelector( '[data-product-list]' );
+    const $aElements = $ulElement.querySelectorAll( 'a' );
+    
+    const actions = {
+        'edit': ( id ) => { 
+            console.log( `Edita ${ id }` );
+        },
+        'delete': ( id ) => {
+            console.log( `Elimina ${ id }` );
+        }
+    }
+
+    $aAddProduct.addEventListener( 'click', event => {
+        event.preventDefault();
+
+        console.log( `Agrega nuevo producto` );
+    });
+
+    $aElements.forEach( a => {
+        a.addEventListener( 'click', event => {
+            event.preventDefault();
+
+            const
+                id = event.target.dataset.id,
+                action = event.target.dataset.action;
+            
+            actions[ action ]( id );
+        });
+    });
+}

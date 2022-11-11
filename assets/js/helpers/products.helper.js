@@ -1,4 +1,4 @@
-import { createElement, createNode } from './node.helpers.js';
+import { createNode } from './node.helpers.js';
 
 
 export const ProductSectionComponent = ( title, products ) => {
@@ -29,12 +29,16 @@ export const ProductSectionComponent = ( title, products ) => {
             text: 'Agregar producto',
             classes: [ 'btn', 'btn-primary' ],
             attributes: [
-                { 'href': '/#' }
+                { 'href': '/products-admin.html#' },
+                { 'data-add-product': '' }
             ]
         }),
         ulNode = createNode({
             element: 'ul',
-            classes: [ 'product__content-list', 'nav_section' ]
+            classes: [ 'product__content-list', 'nav_section' ],
+            attributes: [
+                { 'data-product-list': '' }
+            ]
         });
 
 
@@ -53,13 +57,23 @@ export const ProductSectionComponent = ( title, products ) => {
                 element: 'div',
                 classes: [ 'product-item__icons', 'icons' ]
             }),
-            spanIconDelete = createNode({
-                element: 'span',
-                classes: [ 'icon', 'icon-delete', 'product-item__icon-delete' ]
+            aIconDelete = createNode({
+                element: 'a',
+                classes: [ 'icon', 'icon-delete', 'product-item__icon-delete' ],
+                attributes: [
+                    { 'href': `/products-admin.html#` },
+                    { 'data-id': id },
+                    { 'data-action': 'delete' }
+                ]
             }),
-            spanIconEdit = createNode({
-                element: 'span',
-                classes: [ 'icon', 'icon-edit', 'product-item__icon-edit' ]
+            aIconEdit = createNode({
+                element: 'a',
+                classes: [ 'icon', 'icon-edit', 'product-item__icon-edit' ],
+                attributes: [
+                    { 'href': `/products-admin.html#` },
+                    { 'data-id': id },
+                    { 'data-action': 'edit' }
+                ]
             }),
             imgNode = createNode({
                 element: 'img',
@@ -82,14 +96,11 @@ export const ProductSectionComponent = ( title, products ) => {
             pCode = createNode({
                 element: 'p',
                 text: `#${ id }`,
-                classes: [ 'code' ],
-                attributes: [
-                    { 'href': '/#' }
-                ]
+                classes: [ 'code' ]
             });
 
-        divIconsNode.appendChild( spanIconDelete );
-        divIconsNode.appendChild( spanIconEdit );
+        divIconsNode.appendChild( aIconDelete );
+        divIconsNode.appendChild( aIconEdit );
     
         divItemNode.appendChild( divIconsNode );
         divItemNode.appendChild( imgNode );
