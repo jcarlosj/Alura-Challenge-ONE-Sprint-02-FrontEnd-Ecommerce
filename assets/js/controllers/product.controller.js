@@ -60,6 +60,10 @@ class ProductController {
         return this.#Products.getList;
     }
 
+    delete = async ( id ) => {
+        await productServices.deleteProductsById( id );
+    }
+
 }
 
 export default new ProductController();

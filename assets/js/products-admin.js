@@ -26,12 +26,8 @@ function actions() {
     const $aElements = $ulElement.querySelectorAll( 'a' );
     
     const actions = {
-        'edit': ( id ) => { 
-            console.log( `Edita ${ id }` );
-        },
-        'delete': ( id ) => {
-            console.log( `Elimina ${ id }` );
-        }
+        'edit': ( data ) => edit( data ),
+        'delete': ( data ) => remove( data )
     }
 
     $aAddProduct.addEventListener( 'click', event => {
@@ -40,15 +36,29 @@ function actions() {
         console.log( `Agrega nuevo producto` );
     });
 
-    $aElements.forEach( a => {
-        a.addEventListener( 'click', event => {
+    $aElements.forEach( $aEl => {
+        $aEl.addEventListener( 'click', event => {
             event.preventDefault();
 
             const
                 id = event.target.dataset.id,
                 action = event.target.dataset.action;
             
-            actions[ action ]( id );
+            actions[ action ]({ $aEl, id });
         });
     });
+
+    function edit({ $aEl, id }) {
+        console.log( `Edita ${ id }` );
+    }
+
+    function remove({ $aEl, id }) {
+        console.log( `Elimina ${ id }` );
+        const 
+            $liEl = $aEl.parentNode.parentNode.parentNode,
+            $parentEl = $liEl.parentNode;
+        
+        $parentEl.removeChild( $liEl );
+        ProductController.delete( id );
+    }
 }

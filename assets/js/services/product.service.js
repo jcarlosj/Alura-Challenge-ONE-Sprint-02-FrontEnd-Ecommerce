@@ -26,9 +26,16 @@ const getProductsById = async ( id ) => {
     return products.filter( product => product.id === Number( id ));
 }
 
+const deleteProductsById = async ( id ) => {
+    await fetch( `http://localhost:3000/products/${ id }`, {
+        method: 'DELETE',
+    });
+}
+
 
 export const productServices = {
     getAllProducts,
     getProductsByCategory,
-    getProductsById
+    getProductsById,
+    deleteProductsById
 }
