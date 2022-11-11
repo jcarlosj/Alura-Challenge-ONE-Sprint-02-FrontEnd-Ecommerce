@@ -1,5 +1,6 @@
 import ProductController from './controllers/product.controller.js';
 import { ProductComponent } from './helpers/product-details.helper.js';
+import { SimilarComponent } from './helpers/similar.helper.js';
 
 
 const sectionsNode = document.querySelector( '[data-sections]' );
@@ -26,6 +27,10 @@ const init = async ( ) => {
         
         console.log( products );
 
+        const componentSimilar = SimilarComponent( 'Productos similares', products );
+        console.log( componentSimilar );
+
+        sectionsNode.appendChild( componentSimilar );
     }
     else {
         window.location.replace( '../../home.html' );
