@@ -31,18 +31,18 @@ function actions() {
     }
 
     $aAddProduct.addEventListener( 'click', event => {
-        event.preventDefault();
-
         console.log( `Agrega nuevo producto` );
     });
 
     $aElements.forEach( $aEl => {
         $aEl.addEventListener( 'click', event => {
-            event.preventDefault();
 
             const
                 id = event.target.dataset.id,
                 action = event.target.dataset.action;
+
+            if( action === 'delete' )
+                event.preventDefault();
             
             actions[ action ]({ $aEl, id });
         });

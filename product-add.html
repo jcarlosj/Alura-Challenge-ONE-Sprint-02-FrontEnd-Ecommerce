@@ -50,7 +50,7 @@
                 <section class="section product">
                     <div class="product__content container">
 
-                        <form class="product__form" name="form">
+                        <form class="product__form" action="" data-form="product-form">
                             <h3 class="product__title">Agregar un nuevo producto</h3>
 
                             <div class="form-field form-field-input">
@@ -66,7 +66,7 @@
                             </div>
 
                             <div class="form-field form-field-input">
-                                <input type="text" name="product_name" class="form-control form-input" id="product-name" placeholder="Escriba el nombre del producto" data-type="input-product" autocomplete="off" required />
+                                <input type="text" name="product_name" class="form-control form-input" id="product-name" placeholder="Escriba el nombre del producto" data-type="input-name" autocomplete="off" required />
                                 <label for="product-name" class="form-label" data-type="label-name">Nombre del producto:</label>
                                 <span class="form-message">Mensaje informativo o de error</span>
                             </div>
@@ -160,6 +160,6 @@
 
     </div>
 
-    <script type="module" src="./assets/js/app.js"></script>
+    <script type="module" src="./assets/js/product-add.js"></script>
 </body>
 </html>

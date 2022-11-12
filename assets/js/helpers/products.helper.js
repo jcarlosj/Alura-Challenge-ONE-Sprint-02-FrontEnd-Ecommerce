@@ -29,7 +29,7 @@ export const ProductSectionComponent = ( title, products ) => {
             text: 'Agregar producto',
             classes: [ 'btn', 'btn-primary' ],
             attributes: [
-                { 'href': '/products-admin.html#' },
+                { 'href': '/product-add.html' },
                 { 'data-add-product': '' }
             ]
         }),
@@ -61,7 +61,7 @@ export const ProductSectionComponent = ( title, products ) => {
                 element: 'a',
                 classes: [ 'icon', 'icon-delete', 'product-item__icon-delete' ],
                 attributes: [
-                    { 'href': `/products-admin.html#` },
+                    { 'href': `/product-add.html?id=${ id }` },
                     { 'data-id': id },
                     { 'data-action': 'delete' }
                 ]
@@ -70,7 +70,7 @@ export const ProductSectionComponent = ( title, products ) => {
                 element: 'a',
                 classes: [ 'icon', 'icon-edit', 'product-item__icon-edit' ],
                 attributes: [
-                    { 'href': `/products-admin.html#` },
+                    { 'href': `/product-add.html?id=${ id }` },
                     { 'data-id': id },
                     { 'data-action': 'edit' }
                 ]
