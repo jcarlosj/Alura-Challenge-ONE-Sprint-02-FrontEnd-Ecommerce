@@ -40,6 +40,28 @@ const addNewProduct = async ( data ) => {
     return await response.json();
 }
 
+const editProduct = async ( data ) => {
+
+    console.log( typeof data, data  );
+    const { id, name, category, url, price, description } = data;
+
+    const response = await fetch( `http://localhost:3000/products/${ id }`, {
+        method: 'PATCH',
+        body: JSON.stringify({ 
+            name, 
+            category,
+            url, 
+            price, 
+            description 
+        }),
+        headers: {
+            'Content-type': 'application/json; charset=UTF-8',
+        },
+    });
+
+    return await response.json();
+}
+
 const deleteProductsById = async ( id ) => {
     await fetch( `http://localhost:3000/products/${ id }`, {
         method: 'DELETE',
@@ -52,5 +74,6 @@ export const productServices = {
     getProductsByCategory,
     getProductsById,
     deleteProductsById,
-    addNewProduct
+    addNewProduct,
+    editProduct
 }

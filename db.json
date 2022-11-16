@@ -18,11 +18,11 @@
     },
     {
       "id": 1111114,
-      "name": "Product XYZ",
-      "category": "starwars",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+      "name": "Mario Broster",
+      "category": "nientiendo",
+      "url": "https://ae01.alicdn.com/kf/HTB1ee65KpXXXXa4XVXXq6xXFXXXa/NEW-Super-Mario-Bros-Toys-12cm-5-PVC-Mario-Action-Figures-Toy-Anime-Doll-Mario-3D.jpg_Q90.jpg_.webp",
+      "price": 120,
+      "description": "Nientiendo Collection"
     },
     {
       "id": 1111116,
@@ -111,34 +111,6 @@
       "url": "https://random.imagecdn.app/176/176",
       "price": 60,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
-    },
-    {
-      "id": 1668627448245,
-      "name": "Mario Bros",
-      "url": "https://ae01.alicdn.com/kf/HTB1ee65KpXXXXa4XVXXq6xXFXXXa/NEW-Super-Mario-Bros-Toys-12cm-5-PVC-Mario-Action-Figures-Toy-Anime-Doll-Mario-3D.jpg_Q90.jpg_.webp",
-      "price": 500,
-      "description": "El Original"
-    },
-    {
-      "id": 1668627850883,
-      "name": "Mario Bros",
-      "url": "https://ae01.alicdn.com/kf/HTB1ee65KpXXXXa4XVXXq6xXFXXXa/NEW-Super-Mario-Bros-Toys-12cm-5-PVC-Mario-Action-Figures-Toy-Anime-Doll-Mario-3D.jpg_Q90.jpg_.webp",
-      "price": 600,
-      "description": "Size Collection"
-    },
-    {
-      "id": 1668628030854,
-      "name": "Mario Bros",
-      "url": "https://ae01.alicdn.com/kf/HTB1ee65KpXXXXa4XVXXq6xXFXXXa/NEW-Super-Mario-Bros-Toys-12cm-5-PVC-Mario-Action-Figures-Toy-Anime-Doll-Mario-3D.jpg_Q90.jpg_.webp",
-      "price": 900,
-      "description": "No Luigi"
-    },
-    {
-      "id": 1668628162563,
-      "name": "Mario Bro",
-      "url": "https://ae01.alicdn.com/kf/HTB1ee65KpXXXXa4XVXXq6xXFXXXa/NEW-Super-Mario-Bros-Toys-12cm-5-PVC-Mario-Action-Figures-Toy-Anime-Doll-Mario-3D.jpg_Q90.jpg_.webp",
-      "price": 100,
-      "description": "El chimbo!"
     }
   ]
 }

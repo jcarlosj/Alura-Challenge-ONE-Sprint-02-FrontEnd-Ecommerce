@@ -28,6 +28,13 @@ export default class Product {
         this.#name = newName;
     }
 
+    get category() { 
+        return this.#category; 
+    }
+    set category( newCategory ) {
+        this.#category = newCategory;
+    }
+
     get url() { 
         return this.#url; 
     }

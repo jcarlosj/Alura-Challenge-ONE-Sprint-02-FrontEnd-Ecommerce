@@ -29,8 +29,12 @@ import { formProduct } from './forms/form-product/form-product.js';
             }
 
             // Si existe un ID se editaran los datos, si no se creara un nuevo producto a partir de ellos.
-            if( id )
-                ProductController.edit( id, dataForm );
+            if( id ) {
+                dataForm[ 'id' ] = id;
+
+                const modifiedProduct = await ProductController.edit( dataForm );
+                console.log( modifiedProduct );
+            }
             else {
                 dataForm[ 'id' ] = new Date().valueOf();
                 
@@ -38,7 +42,7 @@ import { formProduct } from './forms/form-product/form-product.js';
                 console.log( registeredProduct );
             }
 
-            // console.log( dataForm );
+            console.log( dataForm );
             console.log( 'Click Submit!' );
         });
     }

@@ -68,9 +68,10 @@ class ProductController {
         return productServices.addNewProduct( newProduct );
     }
 
-    edit = ( id, data ) => {
-        const newProduct = new Product( data );
-        console.log( newProduct );
+    edit = ( data ) => {
+        const editedProduct = new Product( data );
+
+        return productServices.editProduct( editedProduct );
     }
 
     delete = async ( id ) => {
