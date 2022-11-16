@@ -17,7 +17,7 @@ import { formProduct } from './forms/form-product/form-product.js';
 
         formProduct();
 
-        $form.addEventListener( 'submit', ( event ) => {
+        $form.addEventListener( 'submit', async ( event ) => {
             event.preventDefault();
 
             let dataForm = {
@@ -33,7 +33,9 @@ import { formProduct } from './forms/form-product/form-product.js';
                 ProductController.edit( id, dataForm );
             else {
                 dataForm[ 'id' ] = new Date().valueOf();
-                ProductController.add( dataForm );
+                
+                const registeredProduct = await ProductController.add( dataForm );
+                console.log( registeredProduct );
             }
 
             // console.log( dataForm );

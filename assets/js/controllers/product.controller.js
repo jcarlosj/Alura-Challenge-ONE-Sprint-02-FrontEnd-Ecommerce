@@ -65,7 +65,7 @@ class ProductController {
     add = async ( data ) => {
         const newProduct = new Product( data );
 
-        return await productServices.addNewProduct( newProduct );
+        return productServices.addNewProduct( newProduct );
     }
 
     edit = ( id, data ) => {

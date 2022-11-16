@@ -29,13 +29,15 @@ const getProductsById = async ( id ) => {
 const addNewProduct = async ( data ) => {
     const { id, name, category, url, price, description } = data;
 
-    return await fetch( 'http://localhost:3000/products', {
+    const response = await fetch( 'http://localhost:3000/products', {
         method: 'POST',
         body: JSON.stringify({ id, name, category, url, price, description }),
         headers: {
             'Content-type': 'application/json; charset=UTF-8',
         },
     });
+
+    return await response.json();
 }
 
 const deleteProductsById = async ( id ) => {
