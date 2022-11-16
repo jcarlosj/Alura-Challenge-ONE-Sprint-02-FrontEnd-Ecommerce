@@ -2,5 +2,6 @@
 @import './label.css';
 @import './input.css';
 @import './textarea.css';
+@import './span.error.css';
 
 @import './forms.css';
