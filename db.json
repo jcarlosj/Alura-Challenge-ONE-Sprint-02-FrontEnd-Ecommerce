@@ -111,6 +111,14 @@
       "url": "https://random.imagecdn.app/176/176",
       "price": 60,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+    },
+    {
+      "id": 1668632298781,
+      "name": "Age of Empires",
+      "category": "Video Games",
+      "url": "https://d500.epimg.net/cincodias/imagenes/2018/02/20/lifestyle/1519123008_948054_1519123136_noticia_normal.jpg",
+      "price": 120,
+      "description": "PlayStation I"
     }
   ]
 }

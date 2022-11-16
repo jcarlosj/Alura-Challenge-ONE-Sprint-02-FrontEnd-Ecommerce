@@ -12,8 +12,17 @@ import { formProduct } from './forms/form-product/form-product.js';
             id = urlParams.get( 'id' );
 
         // Si existe ID entonces obtiene los datos del producto que se va a editar
-        if( id )
+        if( id ) {
+            const
+                $title = $form.querySelector( '[data-title]' ),
+                $button = $form.querySelector( '[data-type="button-submit"]' );
+
+            $title.textContent = 'Editar producto';
+            $button.textContent = 'Editar producto';
+
             getDataProductBy( id );
+        }
+            
 
         formProduct();
 
@@ -40,10 +49,15 @@ import { formProduct } from './forms/form-product/form-product.js';
                 
                 const registeredProduct = await ProductController.add( dataForm );
                 console.log( registeredProduct );
+                clearForm();
             }
 
             console.log( dataForm );
             console.log( 'Click Submit!' );
+
+            setTimeout( () => {
+                window.location = '../../../products-admin.html';
+            }, 2000 );
         });
     }
 
@@ -62,8 +76,15 @@ import { formProduct } from './forms/form-product/form-product.js';
         $form.querySelector( '[data-type="input-price"]' ).value = product.price;
         $form.querySelector( '[data-type="textarea-description"]' ).value = product.description;
     
-        
         console.log( product );
+    }
+
+    function clearForm() {
+        $form.querySelector( '[data-type="input-url"]' ).value = '';
+        $form.querySelector( '[data-type="input-category"]' ).value = '';
+        $form.querySelector( '[data-type="input-name"]' ).value = '';
+        $form.querySelector( '[data-type="input-price"]' ).value = '';
+        $form.querySelector( '[data-type="textarea-description"]' ).value = '';
     }
     
     init();
