@@ -60,6 +60,14 @@ class ProductController {
         return this.#Products.getList;
     }
 
+    add = () => {
+        console.log( 'Add Product' );
+    }
+
+    edit = () => {
+        console.log( 'Edit Product' );
+    }
+
     delete = async ( id ) => {
         await productServices.deleteProductsById( id );
     }
