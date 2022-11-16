@@ -7,11 +7,11 @@ export default class Product {
     #description;
 
     constructor({ id, name, category, url, price, description }) {
-        this.#id = id;
+        this.#id = Number( id );
         this.#name = name;
         this.#category = category;
         this.#url = url;
-        this.#price = price;
+        this.#price = Number( price );
         this.#description = description;
 
         console.log( 'Product Model!' );

@@ -1,5 +1,7 @@
 import { productServices } from '../services/product.service.js';
 import Products from '../models/Products.js';
+import Product from '../models/Product.js';
+
 
 class ProductController {
     #Products;
@@ -60,12 +62,15 @@ class ProductController {
         return this.#Products.getList;
     }
 
-    add = () => {
-        console.log( 'Add Product' );
+    add = async ( data ) => {
+        const newProduct = new Product( data );
+
+        return await productServices.addNewProduct( newProduct );
     }
 
-    edit = () => {
-        console.log( 'Edit Product' );
+    edit = ( id, data ) => {
+        const newProduct = new Product( data );
+        console.log( newProduct );
     }
 
     delete = async ( id ) => {

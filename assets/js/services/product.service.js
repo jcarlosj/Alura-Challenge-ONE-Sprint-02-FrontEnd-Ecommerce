@@ -26,6 +26,18 @@ const getProductsById = async ( id ) => {
     return products.filter( product => product.id === Number( id ));
 }
 
+const addNewProduct = async ( data ) => {
+    const { id, name, category, url, price, description } = data;
+
+    return await fetch( 'http://localhost:3000/products', {
+        method: 'POST',
+        body: JSON.stringify({ id, name, category, url, price, description }),
+        headers: {
+            'Content-type': 'application/json; charset=UTF-8',
+        },
+    });
+}
+
 const deleteProductsById = async ( id ) => {
     await fetch( `http://localhost:3000/products/${ id }`, {
         method: 'DELETE',
@@ -37,5 +49,6 @@ export const productServices = {
     getAllProducts,
     getProductsByCategory,
     getProductsById,
-    deleteProductsById
+    deleteProductsById,
+    addNewProduct
 }

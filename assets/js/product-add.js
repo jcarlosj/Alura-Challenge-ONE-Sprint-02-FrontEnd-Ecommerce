@@ -20,7 +20,7 @@ import { formProduct } from './forms/form-product/form-product.js';
         $form.addEventListener( 'submit', ( event ) => {
             event.preventDefault();
 
-            const dataForm = {
+            let dataForm = {
                 url:            $form.querySelector( '[data-type="input-url"]' ).value,
                 category:       $form.querySelector( '[data-type="input-category"]' ).value,
                 name:           $form.querySelector( '[data-type="input-name"]' ).value,
@@ -28,14 +28,15 @@ import { formProduct } from './forms/form-product/form-product.js';
                 description:    $form.querySelector( '[data-type="textarea-description"]' ).value
             }
 
-            console.log( dataForm );
-
             // Si existe un ID se editaran los datos, si no se creara un nuevo producto a partir de ellos.
             if( id )
-                ProductController.edit();
-            else
-                ProductController.add();
+                ProductController.edit( id, dataForm );
+            else {
+                dataForm[ 'id' ] = new Date().valueOf();
+                ProductController.add( dataForm );
+            }
 
+            // console.log( dataForm );
             console.log( 'Click Submit!' );
         });
     }
