@@ -27,7 +27,7 @@ export const CategorySectionComponent = ( name, products ) => {
             text: 'Ver todo',
             classes: [ 'btn', 'btn-view', 'btn-all' ],
             attributes: [
-                { 'href': '/#' }
+                { 'href': '/products-admin.html' }
             ]
         }),
         ulNode = createNode({
