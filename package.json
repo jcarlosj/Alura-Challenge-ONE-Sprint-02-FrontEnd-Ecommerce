@@ -2,7 +2,7 @@
   "name": "sprint-02-frontend-ecommerce",
   "version": "1.0.0",
   "scripts": {
-    "local:server": "browser-sync start --server --file . --host --port 5000 --startPath ./home.html",
+    "local:server": "browser-sync start --server --file . --host --port 5000 --startPath .",
     "json:server": "json-server --watch db.json"
   },
   "description": "AluraGeek: Challenge ONE Front-End Sprint 02",
