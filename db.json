@@ -1,124 +1,140 @@
 {
   "products": [
     {
-      "id": 1111112,
-      "name": "Product XYZ",
-      "category": "diversos",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
-    },
-    {
-      "id": 1111113,
-      "name": "Product XYZ",
-      "category": "consolas",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
-    },
-    {
-      "id": 1111114,
-      "name": "Mario Broster",
-      "category": "nientiendo",
-      "url": "https://ae01.alicdn.com/kf/HTB1ee65KpXXXXa4XVXXq6xXFXXXa/NEW-Super-Mario-Bros-Toys-12cm-5-PVC-Mario-Action-Figures-Toy-Anime-Doll-Mario-3D.jpg_Q90.jpg_.webp",
-      "price": 120,
-      "description": "Nientiendo Collection"
-    },
-    {
-      "id": 1111116,
-      "name": "Product XYZ",
-      "category": "diversos",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
-    },
-    {
-      "id": 1111117,
-      "name": "Product XYZ",
-      "category": "consolas",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
-    },
-    {
-      "id": 1111119,
-      "name": "Product XYZ",
-      "category": "diversos",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
-    },
-    {
-      "id": 1111120,
-      "name": "Product XYZ",
+      "id": 1668700858693,
+      "name": "The Mandatorian: Yoda Baby",
       "category": "starwars",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+      "url": "https://i.ytimg.com/vi/3S8Q7-R8Dyc/maxresdefault.jpg",
+      "price": 300,
+      "description": "Hasbro Toy"
     },
     {
-      "id": 1111121,
-      "name": "Product XYZ",
+      "id": 1668701812352,
+      "name": "The Black Series 6 Darth Vader",
+      "category": "starwars",
+      "url": "https://bbts1.azureedge.net/images/p/full/2022/06/664a7266-b0a4-4469-8d26-d29a03d43011.jpg",
+      "price": 900,
+      "description": "Hasbro Toy"
+    },
+    {
+      "id": 1668702162686,
+      "name": "Rouge One: Starwars Story",
+      "category": "starwars",
+      "url": "https://img2.goodfon.com/wallpaper/nbig/b/3e/lego-parody-lego-star-wars-swordsman-jyn-erso-felicity-jones.jpg",
+      "price": 1200,
+      "description": "Lego Toy"
+    },
+    {
+      "id": 1668702669929,
+      "name": "Stormtrooper squad",
+      "category": "starwars",
+      "url": "https://wallpaperaccess.com/full/143017.jpg",
+      "price": 740,
+      "description": "Lego toys"
+    },
+    {
+      "id": 1668703007477,
+      "name": "BB-8 Drone",
+      "category": "starwars",
+      "url": "https://cdnb.20m.es/sites/127/2015/09/BB8-Star-Wars-juguete-2.jpg",
+      "price": 300,
+      "description": "Toy Collection"
+    },
+    {
+      "id": 1668703211931,
+      "name": "Funko Pop Collection",
+      "category": "starwars",
+      "url": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/08/Star-Wars-Funko-Pop-Price-Feature.jpg",
+      "price": 2300,
+      "description": "Funko Pop Toy"
+    },
+    {
+      "id": 1668703400205,
+      "name": "Nintendo NES",
       "category": "consolas",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+      "url": "https://www.saturdayeveningpost.com/wp-content/uploads/satevepost/2020-12-23-nes-shutterstock.jpg",
+      "price": 600,
+      "description": "Video Game Console"
     },
     {
-      "id": 1111122,
-      "name": "Product XYZ",
-      "category": "starwars",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
-    },
-    {
-      "id": 1111123,
-      "name": "Product XYZ",
+      "id": 1668703751713,
+      "name": "Nintendo Switch",
       "category": "consolas",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+      "url": "https://cnnespanol.cnn.com/wp-content/uploads/2021/12/Nintendo-Switch-cambio-tema.jpg",
+      "price": 1200,
+      "description": "Portable console"
     },
     {
-      "id": 1111124,
-      "name": "Product XYZ",
+      "id": 1668703929019,
+      "name": "Lego - Console Atari 2600",
+      "category": "consolas",
+      "url": "https://designwanted.com/wp-content/uploads/2022/08/LEGO-Atari-2600-by-LEGO-Cover.jpg",
+      "price": 450,
+      "description": "Lego Toy"
+    },
+    {
+      "id": 1668704059325,
+      "name": "Atari 2600 Joystick Controller",
+      "category": "consolas",
+      "url": "https://i.pinimg.com/originals/21/60/b8/2160b846a535b52847b2b4fd91de8747.jpg",
+      "price": 350,
+      "description": "Joystick"
+    },
+    {
+      "id": 1668704260951,
+      "name": "Vintage Console Atari 2600 Original",
+      "category": "consolas",
+      "url": "https://wi-images.condecdn.net/image/gX8yk0bxAKo/crop/3240/f/GettyImages-90738997.jpg",
+      "price": 3500,
+      "description": "Consola Original de Coleccion"
+    },
+    {
+      "id": 1668704530524,
+      "name": "PS5 Console- Horizon Forbidden West Bundle",
+      "category": "consolas",
+      "url": "https://m.media-amazon.com/images/I/71fa5+U25cL.jpg",
+      "price": 3000,
+      "description": "PlayStation Console"
+    },
+    {
+      "id": 1668705067815,
+      "name": "Brooklyn Monopoly Board Game",
       "category": "diversos",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+      "url": "https://cdn.shopify.com/s/files/1/2978/0588/products/Brooklyn-New-York-Monopoly-Board-1200x1200-web_1200x1200.jpg",
+      "price": 750,
+      "description": "Board Game"
     },
     {
-      "id": 1111125,
-      "name": "Product XYZ",
-      "category": "starwars",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
-    },
-    {
-      "id": 1111126,
-      "name": "Product XYZ",
-      "category": "starwars",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
-    },
-    {
-      "id": 1111128,
-      "name": "Product XYZ",
+      "id": 1668705321846,
+      "name": "Super Mario",
       "category": "diversos",
-      "url": "https://random.imagecdn.app/176/176",
-      "price": 60,
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eius quidem repellat commodi iure eveniet, ab nobis, itaque exercitationem eum sed placeat incidunt ipsa quas tempora ducimus nihil fugiat quos veniam. Corporis quaerat quidem molestias?"
+      "url": "https://sc04.alicdn.com/kf/H58eb253378f141dc89188cbb0e9252d3M.jpg",
+      "price": 210,
+      "description": "Toy"
     },
     {
-      "id": 1668632298781,
-      "name": "Age of Empires",
-      "category": "Video Games",
-      "url": "https://d500.epimg.net/cincodias/imagenes/2018/02/20/lifestyle/1519123008_948054_1519123136_noticia_normal.jpg",
-      "price": 120,
-      "description": "PlayStation I"
+      "id": 1668705914608,
+      "name": "Comic #22: Superman son of Kal El",
+      "category": "diversos",
+      "url": "https://aiptcomics.com/wp-content/uploads/2021/04/superman-july-2021-min.jpg",
+      "price": 19,
+      "description": "Comic"
+    },
+    {
+      "id": 1668706128140,
+      "name": "Kendall Guitar",
+      "category": "diversos",
+      "url": "https://guitar.com/wp-content/uploads/2020/11/GM387-Turnstone-Guitars-TGE-HERO-48@1400x1050.jpg",
+      "price": 320,
+      "description": "Instrumento musical"
+    },
+    {
+      "id": 1668707031032,
+      "name": "Fisher Price: Safari",
+      "category": "diversos",
+      "url": "https://live.staticflickr.com/4581/38536890196_2100808096_b.jpg",
+      "price": 2300,
+      "description": "Fisher Price Toys"
     }
   ]
 }

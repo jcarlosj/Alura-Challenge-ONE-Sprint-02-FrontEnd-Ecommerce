@@ -85,7 +85,7 @@ export const ProductSectionComponent = ( title, products ) => {
             }),
             h3Node = createNode({
                 element: 'h3',
-                text: title,
+                text: name,
                 classes: [ 'product-item__name', 'product__name' ]
             }),
             pNode = createNode({
